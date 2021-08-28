@@ -5,4 +5,4 @@ nos=s.split(" ")
 for i in nos:
     i=int(i)
     sum+=i
-print(sum)
+print("Sum of the numbers is= ",sum)
