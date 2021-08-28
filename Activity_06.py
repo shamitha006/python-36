@@ -9,5 +9,5 @@ s1[0]=0
 s1[2]=0
 print("Replaced list1=",res)
 print("Replaced list2=",s1)
-new=res[4:2:-1]
+new=res[-2:]
 print(new)
