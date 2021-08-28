@@ -13,5 +13,4 @@ Copy paste the all the commands that you executed on IDLE:
 5
 >>> 2**7
 128
->>> 2**7
-128
+
