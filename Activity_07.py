@@ -3,4 +3,4 @@ nos=num.split()
 Sum=0
 add=list(map(lambda x:int(x),nos))
 Sum=sum(add)
-print("%d + %d = %d"%(add[0],add[1],Sum))
+print(f"{add[0]}+{add[1]}={Sum}")
