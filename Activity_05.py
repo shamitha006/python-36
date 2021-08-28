@@ -5,4 +5,4 @@ nos=s.split(" ")
 for i in nos:
     i=int(i)
 Sum=sum(nos)
-print(Sum
+print(Sum)
