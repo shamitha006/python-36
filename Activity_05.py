@@ -3,6 +3,5 @@ nos=list()
 Sum=0
 nos=s.split(" ")
 for i in nos:
-    i=int(i)
-Sum=sum(nos)
+    Sum+=int(i)
 print("Sum of all the numbers is =",Sum)
