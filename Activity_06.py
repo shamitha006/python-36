@@ -1,9 +1,11 @@
 li=input("Enter 5 numbers separated by spaces")
 li=li.split(" ")
-s1=li[0:3]
+l1=map(lambda x:int(x),li)
+res=list(li)
+s1=res[0:3]
 print("Sliced list=",s1)
-li[0::4]=[0,0]
+res[0::4]=[0,0]
 s1[0]=0
 s1[2]=0
-print("Replaced list1=",li)
+print("Replaced list1=",res)
 print("Replaced list2=",s1)
