@@ -8,11 +8,14 @@ def check(x):
             count+=1
         else:
             continue
+    return count
+def output(count):
     if(count==2):
-        print("{0} is a prime number".format(x))
+        print("It is a prime number")
     else:
-        print("{0} is not a prime number".format(x))
+        print("It is not a prime number")
 def main():
     a=input_no()
-    check(a)
+    count=check(a)
+    output(count)
 main()
