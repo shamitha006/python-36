@@ -1,8 +1,8 @@
 import math
 def getdata():
-    l,b,h=input("Enter the length, breadth and height").split(" ")
-    l,b,h=[float(l),float(b),float(h)]
-    return l,b,h
+    val=input("Enter the length, breadth and height").split(" ")
+    val=[float(i) for i in val]
+    return val[0],val[1],val[2]
 def calculate(l,b,h): 
     k=(l**2)+(b**2)+(h**2)
     vol=((b**2)*(h**2))/(k**(1/2))
