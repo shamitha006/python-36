@@ -1,0 +1,10 @@
+string=input("Enter the string").split(";")
+res=list()
+for i in string:
+    t=list()
+    new=i.split("=")
+    t.append(new[0])
+    t.append(new[1])
+    tuple(t)
+    res.append(t)
+print(res)
