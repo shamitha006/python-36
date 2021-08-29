@@ -1,8 +1,7 @@
 import math
 def getdata():
-    l=float(input("Enter the length"))
-    b=float(input("Enter the breadth"))
-    h=float(input("Enter the height"))
+    l,b,h=input("Enter the length, breadth and height").split(" ")
+    l,b,h=[float(l),float(b),float(h)]
     return l,b,h
 def calculate(l,b,h): 
     k=(l**2)+(b**2)+(h**2)
